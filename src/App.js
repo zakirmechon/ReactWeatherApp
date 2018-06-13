@@ -30,7 +30,7 @@ class App extends React.Component{
         country:data.sys.country,
         humidity:data.main.humidity,
         description:data.weather[0].description,
-        error:""
+        error:undefined
       });
     }else{
       this.setState({
